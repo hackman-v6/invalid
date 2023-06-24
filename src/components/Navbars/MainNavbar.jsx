@@ -67,10 +67,8 @@ const Navbar = () => {
           justifyContent="space-between"
           flexWrap="wrap"
         >
-          <div><h3>TerraDapp</h3></div>
-
           {/* Logo */}
-          {/* <img src={Logo} style={{ height: "100%", objectFit: "contain" }} /> */}
+          <img src={Logo} style={{ height: "100%", objectFit: "contain" }} />
 
           {/* Links */}
           {!isMobile && (
@@ -88,16 +86,12 @@ const Navbar = () => {
 
 
               <LinkButton>
-              
                 <Typography variant="body2">About</Typography>
-              
               </LinkButton>
 
               <LinkButton>
                 <Typography variant="body2">Contact us</Typography>
               </LinkButton>
-
-              
             </Stack>
           )}
 
