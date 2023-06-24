@@ -47,7 +47,7 @@ const LinkSection = ({ title, links }) => (
 const Footer = () => {
   return (
     <Box>
-      <Divider sx={{ mb: 10 }} />
+      <Divider sx={{ mb: 20 }} />
 
       <Container>
         <Grid container spacing={8} flexWrap="wrap-reverse">
@@ -55,29 +55,29 @@ const Footer = () => {
           <Grid item xs={12} md={6} lg={7} xl={8}>
             <Grid container spacing={2}>
               {/* Protocols */}
-              <Grid item xs={6} sm={3} md={6} lg={3}>
+              {/* <Grid item xs={6} sm={3} md={6} lg={3}>
                 <LinkSection {...protocols} />
-              </Grid>
+              </Grid> */}
 
               {/* Governance */}
-              <Grid item xs={6} sm={3} md={6} lg={3}>
+              {/* <Grid item xs={6} sm={3} md={6} lg={3}>
                 <LinkSection {...governance} />
-              </Grid>
+              </Grid> */}
 
               {/* Support */}
-              <Grid item xs={6} sm={3} md={6} lg={3}>
+              {/* <Grid item xs={6} sm={3} md={6} lg={3}>
                 <LinkSection {...support} />
-              </Grid>
+              </Grid> */}
 
               {/* Developers */}
-              <Grid item xs={6} sm={3} md={6} lg={3}>
+              {/* <Grid item xs={6} sm={3} md={6} lg={3}>
                 <LinkSection {...developers} />
-              </Grid>
+              </Grid> */}
             </Grid>
           </Grid>
 
           {/* Subscribe */}
-          <Grid item xs={12} md={6} lg={5} xl={4}>
+          {/* <Grid item xs={12} md={6} lg={5} xl={4}>
             <Stack>
               <Title sx={{ mb: 1 }}>{subscribe.title}</Title>
 
@@ -103,10 +103,10 @@ const Footer = () => {
                 ))}
               </Stack>
             </Stack>
-          </Grid>
+          </Grid> */}
         </Grid>
 
-        <Divider sx={{ mt: 6, mb: 5 }} />
+        {/* <Divider sx={{ mt: 6, mb: 5 }} /> */}
 
         <Stack
           direction={{ xs: "column", md: "row" }}

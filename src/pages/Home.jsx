@@ -31,9 +31,9 @@ const Home = () => {
         <Section6 />
         {/* <Section7 /> */}
         {/* <Section8 />
-        <Section9 />
+        <Section9 /> */}
         <Section10 />
-        <Section11 /> */}
+        {/* <Section11 /> */}
 
         {/* Footer */}
         <Footer />

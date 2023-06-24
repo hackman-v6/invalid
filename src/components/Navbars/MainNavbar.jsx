@@ -16,6 +16,9 @@ import CallMadeIcon from "@mui/icons-material/CallMade";
 import LanguageIcon from "@mui/icons-material/Language";
 import LaunchButton from "../Buttons/LaunchButton";
 import MenuIcon from "@mui/icons-material/Menu";
+import { Link } from 'react-router-dom'
+import Section6 from "../../containers/Section6";
+
 
 const { Logo } = navbarContent;
 
@@ -79,13 +82,10 @@ const Navbar = () => {
               sx={{ flex: 1 }}
               flexWrap="wrap"
             >
-              <LinkButton>
-                <Typography variant="body2">Ongoing Campaigns</Typography>
+              <LinkButton >
+                <Typography variant="body2">Campaigns</Typography>
               </LinkButton>
 
-              <LinkButton>
-                <Typography variant="body2">Past Campaigns</Typography>
-              </LinkButton>
 
               <LinkButton>
               
