@@ -69,7 +69,7 @@ const Navbar = () => {
         >
           {/* Logo */}
           {/* <img src={Logo} style={{ height: "100%", objectFit: "contain" }} /> */}
-          <Typography variant="h1" sx={{ fontSize: 25}}>
+          <Typography variant="h1" sx={{ fontSize: 40}}>
           TerraDapp
         </Typography>
           {/* Links */}

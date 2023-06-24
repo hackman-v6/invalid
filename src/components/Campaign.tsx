@@ -15,7 +15,6 @@ import { useState } from "react";
 import { Box, Stack, Typography, TextField, Button } from "@mui/material";
 
 
-
 export type CampaignProps = { projectNumber: number };
 
 function Campaign({ projectNumber }: CampaignProps) {
@@ -95,7 +94,7 @@ function Campaign({ projectNumber }: CampaignProps) {
 
     <Box
   sx={{
-    height: "450px",
+    height: "500px",
     width: "500px",
     position: "relative",
     p: 4,

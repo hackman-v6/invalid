@@ -97,7 +97,7 @@ export const section1Content = {
 export const section2Content = {
   items: [
     { counter: 0, after: "%", subtitle: "Platform fee" },
-    { counter: 345,  subtitle: "No. of Campaigns" },
+    { counter: 24, after: "/7",  subtitle: "Available" },
     { counter: 95 ,  after: "%", subtitle: "Success Rate" },
     { counter: 100, after: "%", subtitle: "Payment Tracking" },
   ],

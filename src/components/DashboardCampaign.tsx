@@ -95,7 +95,7 @@ function DashboardCampaign({ projectNumber }: CampaignProps) {
 
     <Box
   sx={{
-    height: "390px",
+    height: "450px",
     width: "500px",
     position: "relative",
     p: 4,
