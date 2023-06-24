@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Campaign from "../components/Campaign";
 import { useTotalPublishedProjs } from "../read";
+import DashboardCampaign from "../components/DashboardCampaign";
 
 function Campaigns() {
   var settings = {
@@ -48,7 +49,7 @@ function Campaigns() {
           {Array.from(Array(totalPublishedProjs).keys()).map((projectNumber, i) => (
             <Grid container spacing={1} key={i}>
               <Grid item xs={12} md={10}>
-                <Campaign projectNumber={projectNumber} />
+                <DashboardCampaign projectNumber={projectNumber} />
               </Grid>
             </Grid>
           ))}
