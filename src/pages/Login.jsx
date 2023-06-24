@@ -24,7 +24,7 @@ const Login = ({ setToken }) => {
       if (error) throw error;
       console.log(data);
       setToken(data);
-      navigate("/homepage");
+      navigate("/Swap");
     } catch (error) {
       alert(error);
     }
