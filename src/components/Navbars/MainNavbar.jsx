@@ -68,10 +68,12 @@ const Navbar = () => {
           flexWrap="wrap"
         >
           {/* Logo */}
-          <img src={Logo} style={{ height: "100%", objectFit: "contain" }} />
-
+          {/* <img src={Logo} style={{ height: "100%", objectFit: "contain" }} /> */}
+          <Typography variant="h1" sx={{ fontSize: 25}}>
+          TerraDapp
+        </Typography>
           {/* Links */}
-          {!isMobile && (
+          {/* {!isMobile && (
             <Stack
               direction="row"
               alignItems="center"
@@ -93,7 +95,7 @@ const Navbar = () => {
                 <Typography variant="body2">Contact us</Typography>
               </LinkButton>
             </Stack>
-          )}
+          )} */}
 
           {/* Action Buttons */}
           {isMobile ? (
@@ -102,12 +104,12 @@ const Navbar = () => {
             </IconButton>
           ) : (
             <Stack direction="row" spacing={5} alignItems="center">
-              <LinkButton spacing={1}>
+              {/* <LinkButton spacing={1}>
                 <LanguageIcon fontSize="small" />
                 <Typography variant="body2">EN</Typography>
-              </LinkButton>
+              </LinkButton> */}
 
-              <LaunchButton sx={{ borderRadius: 3 }} />
+              <LaunchButton sx={{ borderRadius: 3,marginTop:1 }} />
             </Stack>
           )}
         </Stack>

@@ -47,7 +47,7 @@ const LinkSection = ({ title, links }) => (
 const Footer = () => {
   return (
     <Box>
-      <Divider sx={{ mb: 20 }} />
+      <Divider sx={{ mb: 5 }} />
 
       <Container>
         <Grid container spacing={8} flexWrap="wrap-reverse">
