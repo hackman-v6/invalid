@@ -98,8 +98,8 @@ export const section2Content = {
   items: [
     { counter: 0, after: "%", subtitle: "Platform fee" },
     { counter: 345,  subtitle: "No. of Campaigns" },
-    { counter: 96,  after: "L+", subtitle: "Donors" },
-    { counter: 6, after: "L+", subtitle: "Fundraisers" },
+    { counter: 95 ,  after: "%", subtitle: "Success Rate" },
+    { counter: 100, after: "%", subtitle: "Payment Tracking" },
   ],
 };
 
@@ -111,7 +111,7 @@ export const section4Content = {
   top: {
     title: "About us",
     subtitle:
-      "At GreenWave, we are dedicated to providing assistance to vulnerable communities affected by climatic and ecosystem changes. Through our crowd funding platform, we connect compassionate individuals with projects that address the challenges posed by these shifts. Our focus extends beyond immediate relief efforts, emphasizing sustainable practices, ecosystem restoration, and community empowerment. Join us in fostering resilience, restoring balance, and creating a sustainable future for all.",
+      "At TerraDapp, we are dedicated to providing assistance to vulnerable communities affected by climatic and ecosystem changes. Through our crowd funding platform, we connect compassionate individuals with projects that address the challenges posed by these shifts. Our focus extends beyond immediate relief efforts, emphasizing sustainable practices, ecosystem restoration, and community empowerment. Join us in fostering resilience, restoring balance, and creating a sustainable future for all.",
     image: NewsImg,
   },
   bottom: {
@@ -154,12 +154,12 @@ export const section5Content = {
   BannerBgImageMobile,
   title: "Need Funds to Pay For a Cause?",
   subtitle:
-    "GreenWave’s 0% Platform fees ensures maximum funds for you.",
+    "TerraDapp 0% Platform fees ensures maximum funds for you.",
     
 };
 
 export const section6Content = {
-  title: "Recently Completed Campaigns",
+  title: "Campaigns",
   ITEMS: [
     {
       title: "Narmada Bachao Andolan",
@@ -244,6 +244,7 @@ export const section9Content = {
 
 export const section10Content = {
   SOCIALS: [
+    
     { name: "Telegram", image: TelegramImage },
     { name: "Discord", image: DiscordImage },
     { name: "Reddit", image: RedditImage },
@@ -377,8 +378,8 @@ export const footerContent = {
     { icon: GitHubIcon },
   ],
   copyright: {
-    left: "© 2023 GreenWave, All Rights Reserved.",
-    center: "ENS: GreenWave.eth",
+    left: "© 2023 TerraDapp, All Rights Reserved.",
+    center: "ENS: TerraDapp.eth",
     right: "BUIDL @SSASS 2023",
   },
 };
