@@ -6,9 +6,15 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "typechain": "typechain --target ethers-v5 --out-dir src/contract-types './src/abis/**/*.json'"
   },
   "dependencies": {
+    "@ankr.com/ankr.js": "^0.1.6",
+    "@rainbow-me/rainbowkit": "^0.4.1",
+    "buffer": "^6.0.3",
+    "dotenv": "^16.0.1",
+    "ethers": "^5.6.9",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@mui/icons-material": "^5.11.16",
@@ -21,12 +27,26 @@
     "react-router-dom": "^6.8.1",
     "react-slick": "^0.29.0",
     "react-use-measure": "^2.1.1",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "wagmi": "^0.5.11"
   },
   "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.1.0",
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@trivago/prettier-plugin-sort-imports": "^3.3.0",
+    "@typechain/ethers-v5": "^10.1.0",
+    "@typechain/hardhat": "^6.1.2",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react": "^3.1.0",
-    "vite": "^4.1.0"
+    "vite": "^4.1.0",
+    "autoprefixer": "^10.4.7",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "hardhat": "^2.10.1",
+    "postcss": "^8.4.14",
+    "typechain": "^8.1.0",
+    "typescript": "^4.6.3"
   }
 }
