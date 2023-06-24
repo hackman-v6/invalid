@@ -62,6 +62,7 @@ const Section5 = () => {
               नि: शुल्क फंडरेजर शुरू करें
               </Typography>
 
+              <a href="/signup">
               <OutlinedButton
                 arrow
                 fit={!isMobile}
@@ -70,6 +71,7 @@ const Section5 = () => {
               >
                Join Us
               </OutlinedButton>
+              </a>
             </Stack>
           </Grid>
 
