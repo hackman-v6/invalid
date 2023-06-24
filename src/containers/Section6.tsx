@@ -3,7 +3,7 @@ import { Typography, Grid, Container } from '@mui/material';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Campaign from "./Campaign";
+import Campaign from "../components/Campaign";
 import { useTotalPublishedProjs } from "../read";
 
 function Campaigns() {

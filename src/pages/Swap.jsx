@@ -6,7 +6,7 @@ import { Box } from '@mui/system';
 import { useNavigate } from "react-router-dom";
 import { Typography } from '@mui/material';
 import { Grid, Button } from '@mui/material';
-import Navbar from "../components/Navbars/MainNavbar";
+import SubNavbar from "../components/Navbars/subNavbar";
 import Footer from "../components/Footers/MainFooter";
 
 function Swap({ token }) {
@@ -19,6 +19,7 @@ function Swap({ token }) {
 
   return (
     <div>
+      <SubNavbar />
     <Box
       sx={{
       display: 'flex',
@@ -106,8 +107,8 @@ function Swap({ token }) {
           </div>
         </>
       )}
-      <Footer />
     </Box>
+      <Footer />
     </div>
   );
 }
