@@ -6,7 +6,6 @@ import Title from "../components/Title";
 import { section6Content } from "../utils/content";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ReactSlick from "./Section6";
 
 const { title, ITEMS } = section6Content;
 
