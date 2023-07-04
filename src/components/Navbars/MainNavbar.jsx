@@ -79,7 +79,7 @@ const Navbar = () => {
               alignItems="center"
               justifyContent="center"
               spacing={6}
-              sx={{ flex: 1 }}
+               sx={{ flex: 1 }}
               flexWrap="wrap"
             >
               <LinkButton >
