@@ -13,8 +13,6 @@ TerraDapp is a React.js web application designed to facilitate decentralized cro
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
 
-![image](https://github.com/hackman-v6/invalid/assets/99763743/210988a8-851f-4cca-9375-bc05ddb8204c)
-
 ## Features
 
 - **Crowdfunding Campaigns:** Users can create and participate in crowdfunding campaigns dedicated to environmental crises.
@@ -26,6 +24,8 @@ TerraDapp is a React.js web application designed to facilitate decentralized cro
 - **Smart Contract on Polygon:** Employs a smart contract deployed on the Polygon Mumbai network for transparent and efficient campaign management.
 
 - **Polygon ID for Verification:** Tried Implementing Polygon ID for identity verification, similar to KYC, to maintain campaign integrity.
+
+![image](https://github.com/hackman-v6/invalid/assets/99763743/210988a8-851f-4cca-9375-bc05ddb8204c)
 
 ![image](https://github.com/hackman-v6/invalid/assets/99763743/fa0d7448-62cc-43ac-8565-9b08b67bcc2d)
 
